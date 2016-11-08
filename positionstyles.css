@@ -6,6 +6,7 @@
 .content1 div {
     float: left
 }
+
 .red1 {
     width: 100px;
     height: 100px;
@@ -116,7 +117,6 @@
     background-color: gold;
     float: right;
     margin-top: -50px;
-
 }
 
 .blue4 {
@@ -167,25 +167,22 @@
 }
 
 .green6 {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     background-color: green;
-    position: relative;
+    float:left
 }
 
 .yellow6 {
     width: 600px;
-    height: 275px;
+    height: 310px;
     background-color: gold;
-    margin-top: -200px;
-    float: right;
 }
 
 .blue6 {
     width: 600px;
     height: 100px;
     background-color: blue;
-    margin-top: 75px
 }
 
 .activity {
