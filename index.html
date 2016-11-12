@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <title> Whitewater Rafting Vacations | DRY OAR | Home </title>
     <style>
+        * {
+            box-sizing: border-box
+        }
+        
         nav {
             color: #DCDCDC;
             background-color: #027E3F;
@@ -28,8 +32,15 @@
         
         footer {
             color: #DCDCDC;
-            background-color: #174295
+            background-color: #174295;
+            padding: 15px;
+            height: 55px;
+            display: flex;
+            flex: 1 0 15em;
+            align-items: center;
+        
         }
+    
         
         h2 {
             color: #E0760E;
@@ -43,7 +54,11 @@
         
         h1,
         h2 {
-            font-family: copperplate, Impact, sans-serif
+            font-family: copperplate, Impact, sans-serif;
+        }
+        
+         body {
+            font-family: Klee, "Comic Sans MS", sans-serif;
         }
         
         .content {
@@ -58,6 +73,13 @@
             margin: auto;
         }
         
+        #relax,
+        #rush {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+        
         section {
             padding: 15px;
         }
@@ -67,20 +89,15 @@
             margin-top: 1px;
         }
         
-        body {
-            font-family: Klee, "Comic Sans MS", sans-serif;
-        }
-        
-        footer {
-            padding: 15px;
-        }
-        
-        .leftcol {
-            width: 48%;
-        }
-        
+        .leftcol,
         .rightcol {
             width: 48%;
+            flex: 1 0 15em;
+            margin: .5em
+        }
+        
+        img {
+            max-width: 100%
         }
     </style>
 </head>
@@ -119,16 +136,16 @@
         </section>
         <section id="come-run">
             <h1 class="running"> come run with us.</h1>
-            <p>we invite you to come relax or run with us on one of the amazing rivers we visit. check out our trips and let us know which one best suits you. we're waiting to hear from you!</p>
+            <p>we invite you to come relax or run with us on one of the amazing rivers we visit. check out our trips and let us know which one best suits you. <em>we're waiting to hear from you</em>!</p>
         </section>
         <footer>
             <div class="rightcol">
                 <p>&copy; 2016 Dry Oar || Annie Pericle</p>
             </div>
             <div class="leftcol">
-                <a href="https://www.facebook.com/" target="_blank"> <img src="facebook.png" alt="facebook"></a>
-                <a href="https://www.instagram.com/?hl=en" target="_blank"> <img src="instagram.png" alt="instagram"></a>
-                <a href="https://twitter.com/?lang=en" target="_blank"><img src="twitter.png" alt="twitter"></a>
+                <a href="https://www.facebook.com/" target="_blank"> <img src="facebook.png" alt="facebook" height="43"></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"> <img src="instagram.png" alt="instagram" height="43"></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img src="twitter.png" alt="twitter" height="43"></a>
             </div>
         </footer>
     </div>
