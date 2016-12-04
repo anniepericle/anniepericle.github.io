@@ -139,3 +139,51 @@
         .opening img {
             width: 100%
         }
+        
+        .riversopening img {
+            width: 100%;
+        }
+        
+        .riverswords {
+            background-color: white;
+            text-align: center;
+            margin-top: -30px;
+            font-size: 20px
+        }
+        
+        .relax p,
+        .rush p {
+            text-indent: 30px
+        }
+        
+        .relax img {
+            width: 300px;
+            margin: 10px;
+            float: right;
+        }
+        
+        .rush img {
+            width: 300px;
+            margin: 10px;
+            float: right;
+        }
+        
+        .relax {
+            background-color: #174295;
+            color: #DCDCDC
+        }
+        
+        .rush {
+            background-color: white;
+            color: #174295
+        }
+        
+        .relax h2,
+        .rush h2 {
+            text-align: center
+        }
+        
+        #1name,
+        #2name {
+            text-align: center
+        }
