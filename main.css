@@ -195,6 +195,69 @@
         .faqwords {
             background-color: white;
             text-align: center;
-            margin-top: -30px;
+            margin-top: -20px;
+            margin-bottom: -18px;
             font-size: 20px
+        }
+        
+        .faqs {
+            margin: 10px; padding-right: 20px
+        }
+        
+        .faqs .oddq p {
+            background-color: #174295;
+            padding: 10px;
+            color: #DCDCDC
+        }
+        
+        .faqs .evenq p {
+            color: #174295
+        }
+        
+        .faqs li {
+            color: #027E3F;
+            align-content: center;
+        }
+        
+        .faqs h2 {
+            margin: 10px
+        }
+        
+        .faqs p {
+            padding: 10px;
+            margin-top: -30px
+        }
+        
+        .evenq ul li {
+            color: #174295;
+        }
+        
+        .evenq ul {
+            margin-bottom: 20px;
+            margin-top: -20px;
+            color: #174295;
+        }
+        
+        .oddq {
+            color: #DCDCDC
+        }
+        
+        .evenq {
+            color: #174295
+        }
+        
+        .oddq ul li {
+            color: #DCDCDC;
+        }
+        
+        .oddq ul {
+            margin-bottom: 20px;
+            margin-top: -20px;
+            color: #DCDCDC;
+            background-color: #174295;
+        }
+        
+        .evenq p,
+        .oddq p {
+            text-indent: 30px
         }
